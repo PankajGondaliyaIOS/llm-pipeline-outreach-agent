@@ -1,6 +1,6 @@
 # ZOGOEX Autonomous Email Outreach Engine
 
-Production-ready, background-supervised B2B email engine. Audits mobile game monetization models using Google Gemini and delivers personalized liquidity proposals via Google Workspace SMTP Relay.
+Production-ready, background-supervised B2B email engine. Audits mobile game monetization models using Google Gemini and delivers personalized liquidity proposals via Google Workspace SMTP.
 
 ---
 
@@ -30,8 +30,8 @@ Closing an SSH terminal terminates standard user processes. This engine runs as 
 SSH into your remote Ubuntu server and initialize the project:
 
 ```bash
-# 1. Update package lists and install build tools
-sudo apt update && sudo apt install -y python3-venv python3-pip git
+# 1. Update package lists and install build tools & SQLite CLI
+sudo apt update && sudo apt install -y python3-venv python3-pip git sqlite3
 
 # 2. Clone repository
 git clone <YOUR_GIT_REPO_URL> ~/project1_email_agent
